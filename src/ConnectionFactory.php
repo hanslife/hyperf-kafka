@@ -9,11 +9,11 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Hykafka;
+namespace Hanslife\Hykafka;
 
-use Hyperf\Hykafka\Exception\NotSupportedException;
-use Hyperf\Hykafka\IO\IOFactory;
-use Hyperf\Hykafka\IO\IOFactoryInterface;
+use Hanslife\Hykafka\Exception\NotSupportedException;
+use Hanslife\Hykafka\IO\IOFactory;
+use Hanslife\Hykafka\IO\IOFactoryInterface;
 use Hyperf\Contract\ConfigInterface;
 use Hyperf\Contract\StdoutLoggerInterface;
 use Hyperf\Utils\Arr;

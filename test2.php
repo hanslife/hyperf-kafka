@@ -1,8 +1,8 @@
 <?php
 require __DIR__.'/vendor/autoload.php';
-use Hyperf\Hykafka\Annotation\Producer as Producer2;
-use Hyperf\Hykafka\Message\ProducerMessage;
-use Hyperf\Hykafka\Producer;
+use Hanslife\Hykafka\Annotation\Producer as Producer2;
+use Hanslife\Hykafka\Message\ProducerMessage;
+use Hanslife\Hykafka\Producer;
 use Hyperf\Di\Container;
 use Hyperf\Di\Definition\DefinitionSourceFactory;
 use Hyperf\Utils\ApplicationContext;

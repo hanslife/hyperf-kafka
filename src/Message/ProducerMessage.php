@@ -9,10 +9,10 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Hykafka\Message;
+namespace Hanslife\Hykafka\Message;
 
-use Hyperf\Hykafka\Constants;
-use Hyperf\Hykafka\Packer\Packer;
+use Hanslife\Hykafka\Constants;
+use Hanslife\Hykafka\Packer\Packer;
 use Hyperf\Utils\ApplicationContext;
 
 abstract class ProducerMessage extends Message implements ProducerMessageInterface

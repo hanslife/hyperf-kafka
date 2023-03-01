@@ -9,9 +9,9 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Hykafka\IO;
+namespace Hanslife\Hykafka\IO;
 
-use Hyperf\Hykafka\Params;
+use Hanslife\Hykafka\Params;
 use PhpAmqpLib\Wire\IO\AbstractIO;
 
 interface IOFactoryInterface

@@ -9,10 +9,10 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Hykafka\IO;
+namespace Hanslife\Hykafka\IO;
 
-use Hyperf\Hykafka\Exception\NotSupportedException;
-use Hyperf\Hykafka\Params;
+use Hanslife\Hykafka\Exception\NotSupportedException;
+use Hanslife\Hykafka\Params;
 use Hyperf\Engine\Constant;
 use PhpAmqpLib\Wire\IO\AbstractIO;
 
