@@ -9,15 +9,15 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hanslife\Hykafka;
+namespace Hyperf\Hykafka;
 
-use Hanslife\Hykafka\Exception\NotSupportedException;
-use Hanslife\Hykafka\IO\IOFactory;
-use Hanslife\Hykafka\IO\IOFactoryInterface;
-use Hanslife\Contract\ConfigInterface;
-use Hanslife\Contract\StdoutLoggerInterface;
-use Hanslife\Utils\Arr;
-use Hanslife\Utils\Coroutine\Locker;
+use Hyperf\Hykafka\Exception\NotSupportedException;
+use Hyperf\Hykafka\IO\IOFactory;
+use Hyperf\Hykafka\IO\IOFactoryInterface;
+use Hyperf\Contract\ConfigInterface;
+use Hyperf\Contract\StdoutLoggerInterface;
+use Hyperf\Utils\Arr;
+use Hyperf\Utils\Coroutine\Locker;
 use InvalidArgumentException;
 use PhpAmqpLib\Wire\IO\AbstractIO;
 use Psr\Container\ContainerInterface;

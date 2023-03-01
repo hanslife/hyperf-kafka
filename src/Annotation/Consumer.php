@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Hanslife\Hykafka\Annotation;
 
 use Attribute;
-use Hanslife\Di\Annotation\AbstractAnnotation;
+use Hyperf\Di\Annotation\AbstractAnnotation;
 
 #[Attribute(Attribute::TARGET_CLASS)]
 class Consumer extends AbstractAnnotation

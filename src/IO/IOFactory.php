@@ -9,11 +9,11 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hanslife\Hykafka\IO;
+namespace Hyperf\Hykafka\IO;
 
-use Hanslife\Hykafka\Exception\NotSupportedException;
-use Hanslife\Hykafka\Params;
-use Hanslife\Engine\Constant;
+use Hyperf\Hykafka\Exception\NotSupportedException;
+use Hyperf\Hykafka\Params;
+use Hyperf\Engine\Constant;
 use PhpAmqpLib\Wire\IO\AbstractIO;
 
 class IOFactory implements IOFactoryInterface

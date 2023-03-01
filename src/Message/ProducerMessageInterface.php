@@ -9,7 +9,7 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hanslife\Hykafka\Message;
+namespace Hyperf\Hykafka\Message;
 
 interface ProducerMessageInterface extends MessageInterface
 {

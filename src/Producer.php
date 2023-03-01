@@ -9,10 +9,10 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hanslife\Hykafka;
+namespace Hyperf\Hykafka;
 
-use Hanslife\Hykafka\Message\ProducerMessageInterface;
-use Hanslife\Di\Annotation\AnnotationCollector;
+use Hyperf\Hykafka\Message\ProducerMessageInterface;
+use Hyperf\Di\Annotation\AnnotationCollector;
 use PhpAmqpLib\Message\AMQPMessage;
 use Throwable;
 
@@ -62,7 +62,7 @@ class Producer extends Builder
     private function injectMessageProperty(ProducerMessageInterface $producerMessage)
     {
         if (class_exists(AnnotationCollector::class)) {
-            /** @var null|\Hanslife\Hykafka\Annotation\Producer $annotation */
+            /** @var null|\Hyperf\Hykafka\Annotation\Producer $annotation */
             $annotation = AnnotationCollector::getClassAnnotation(get_class($producerMessage), Annotation\Producer::class);
             if ($annotation) {
                 $annotation->routingKey && $producerMessage->setRoutingKey($annotation->routingKey);

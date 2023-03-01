@@ -9,9 +9,9 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hanslife\Hykafka\Packer;
+namespace Hyperf\Hykafka\Packer;
 
-use Hanslife\Contract\PackerInterface;
+use Hyperf\Contract\PackerInterface;
 
 interface Packer extends PackerInterface
 {

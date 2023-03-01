@@ -14,7 +14,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "HyperfTest\\": "tests"
+            "HanslifeTest\\": "tests"
         }
     },
     "require": {
@@ -48,7 +48,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Hanslife\\Hykafka\\ConfigProvider"
+            "config": "Hyperf\\Hykafka\\ConfigProvider"
         }
     }
 }
