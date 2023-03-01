@@ -1,5 +1,5 @@
 {
-    "name": "hyperf/hykafka",
+    "name": "hanslife/hyperf-kafka",
     "type": "library",
     "license": "MIT",
     "keywords": [
