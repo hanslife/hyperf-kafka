@@ -1,11 +1,11 @@
 <?php
 require __DIR__.'/vendor/autoload.php';
-use Hyperf\Hykafka\Annotation\Producer as Producer2;
-use Hyperf\Hykafka\Message\ProducerMessage;
-use Hyperf\Hykafka\Producer;
-use Hyperf\Di\Container;
-use Hyperf\Di\Definition\DefinitionSourceFactory;
-use Hyperf\Utils\ApplicationContext;
+use Hanslife\Hykafka\Annotation\Producer as Producer2;
+use Hanslife\Hykafka\Message\ProducerMessage;
+use Hanslife\Hykafka\Producer;
+use Hanslife\Di\Container;
+use Hanslife\Di\Definition\DefinitionSourceFactory;
+use Hanslife\Utils\ApplicationContext;
 
 #[Producer2(exchange: 'hyperf', routingKey: 'hyperf')]
 class DemoProducer extends ProducerMessage

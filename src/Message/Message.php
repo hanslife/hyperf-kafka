@@ -9,10 +9,10 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Hykafka\Message;
+namespace Hanslife\Hykafka\Message;
 
-use Hyperf\Hykafka\Builder\ExchangeBuilder;
-use Hyperf\Hykafka\Exception\MessageException;
+use Hanslife\Hykafka\Builder\ExchangeBuilder;
+use Hanslife\Hykafka\Exception\MessageException;
 
 abstract class Message implements MessageInterface
 {

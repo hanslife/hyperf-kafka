@@ -9,10 +9,10 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Hykafka\Annotation;
+namespace Hanslife\Hykafka\Annotation;
 
 use Attribute;
-use Hyperf\Di\Annotation\AbstractAnnotation;
+use Hanslife\Di\Annotation\AbstractAnnotation;
 
 #[Attribute(Attribute::TARGET_CLASS)]
 class Producer extends AbstractAnnotation

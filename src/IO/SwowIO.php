@@ -9,9 +9,9 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Amqp\IO;
+namespace Hanslife\Amqp\IO;
 
-use Hyperf\Engine\Socket;
+use Hanslife\Engine\Socket;
 use InvalidArgumentException;
 use PhpAmqpLib\Exception\AMQPConnectionClosedException;
 use PhpAmqpLib\Exception\AMQPRuntimeException;

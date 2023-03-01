@@ -9,17 +9,17 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Hykafka;
+namespace Hanslife\Hykafka;
 
-use Hyperf\Hykafka\Exception\LoopBrokenException;
-use Hyperf\Hykafka\Exception\SendChannelClosedException;
-use Hyperf\Hykafka\Exception\SendChannelTimeoutException;
-use Hyperf\Coordinator\Constants;
-use Hyperf\Coordinator\CoordinatorManager;
-use Hyperf\Engine\Channel;
-use Hyperf\Utils\Channel\ChannelManager;
-use Hyperf\Utils\Coroutine;
-use Hyperf\Utils\Exception\ChannelClosedException;
+use Hanslife\Hykafka\Exception\LoopBrokenException;
+use Hanslife\Hykafka\Exception\SendChannelClosedException;
+use Hanslife\Hykafka\Exception\SendChannelTimeoutException;
+use Hanslife\Coordinator\Constants;
+use Hanslife\Coordinator\CoordinatorManager;
+use Hanslife\Engine\Channel;
+use Hanslife\Utils\Channel\ChannelManager;
+use Hanslife\Utils\Coroutine;
+use Hanslife\Utils\Exception\ChannelClosedException;
 use PhpAmqpLib\Channel\AMQPChannel;
 use PhpAmqpLib\Connection\AbstractConnection;
 use PhpAmqpLib\Exception\AMQPRuntimeException;

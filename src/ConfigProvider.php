@@ -9,11 +9,11 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Hykafka;
+namespace Hanslife\Hykafka;
 
-use Hyperf\Hykafka\Packer\Packer;
-use Hyperf\Hykafka\Producer;
-use Hyperf\Utils\Packer\JsonPacker;
+use Hanslife\Hykafka\Packer\Packer;
+use Hanslife\Hykafka\Producer;
+use Hanslife\Utils\Packer\JsonPacker;
 
 class ConfigProvider
 {

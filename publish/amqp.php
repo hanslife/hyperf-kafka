@@ -9,7 +9,7 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-use Hyperf\Hykafka\IO\IOFactory;
+use Hanslife\Hykafka\IO\IOFactory;
 
 return [
     'enable' => true,
