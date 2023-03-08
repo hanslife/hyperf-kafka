@@ -48,7 +48,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Hyperf\\Hykafka\\ConfigProvider"
+            "config": "Hanslife\\Hykafka\\ConfigProvider"
         }
     }
 }

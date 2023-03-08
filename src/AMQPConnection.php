@@ -208,7 +208,6 @@ class AMQPConnection extends AbstractConnection
                     if ($this->chan->isClosing()) {
                         throw new SendChannelClosedException('Write failed, because send channel closed.');
                     }
-
                     if ($data === false || $data === '') {
                         throw new LoopBrokenException('Push channel broken or write empty string for connection.');
                     }

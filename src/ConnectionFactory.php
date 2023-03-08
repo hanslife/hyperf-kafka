@@ -32,7 +32,7 @@ class ConnectionFactory
     protected $connections = [];
 
     public function __construct(protected ContainerInterface $container)
-    {var_dump($this->container->get(ConfigInterface::class));exit;
+    {
         $this->config = $this->container->get(ConfigInterface::class);
     }
 
@@ -108,7 +108,7 @@ class ConnectionFactory
 
     protected function getConfig(string $pool): array
     {
-        $key = sprintf('amqp.%s', $pool);
+        $key = sprintf('amqp2.%s', $pool);
         if (! $this->config->has($key)) {
             throw new InvalidArgumentException(sprintf('config[%s] is not exist!', $key));
         }

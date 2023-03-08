@@ -16,7 +16,7 @@ use Hanslife\Hykafka\Builder\ExchangeBuilder;
 interface MessageInterface
 {
     /**
-     * Pool name for amqp.
+     * Pool name for amqp2.
      */
     public function getPoolName(): string;
 

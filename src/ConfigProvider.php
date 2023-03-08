@@ -12,8 +12,9 @@ declare(strict_types=1);
 namespace Hanslife\Hykafka;
 
 use Hanslife\Hykafka\Packer\Packer;
-use Hanslife\Hykafka\Producer;
 use Hyperf\Utils\Packer\JsonPacker;
+use Hanslife\Hykafka\Listener\BeforeMainServerStartListener;
+use Hanslife\Hykafka\Listener\MainWorkerStartListener;
 
 class ConfigProvider
 {
@@ -23,17 +24,18 @@ class ConfigProvider
             'dependencies' => [
                 Producer::class => Producer::class,
                 Packer::class => JsonPacker::class,
+                Consumer::class => ConsumerFactory::class,
             ],
             'listeners' => [
-//                BeforeMainServerStartListener::class => 99,
-//                MainWorkerStartListener::class,
+                BeforeMainServerStartListener::class => 99,
+                MainWorkerStartListener::class,
             ],
             'publish' => [
                 [
                     'id' => 'config',
-                    'description' => 'The config for amqp.',
-                    'source' => __DIR__ . '/../publish/amqp.php',
-//                    'destination' => BASE_PATH . '/config/autoload/amqp.php',
+                    'description' => 'The config for amqp2.',
+                    'source' => __DIR__ . '/../publish/amqp2.php',
+                    'destination' => BASE_PATH . '/config/autoload/amqp2.php',
                 ],
             ],
         ];
